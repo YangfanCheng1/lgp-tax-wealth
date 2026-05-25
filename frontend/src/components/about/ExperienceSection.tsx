@@ -3,18 +3,11 @@ import GoldDivider from '@/components/ui/GoldDivider'
 
 const timeline = [
   {
-    period: '2017 – 2021',
-    role: 'Accountant',
-    organization: 'JBAOXIN Health & Co Inc — Greater New York City Area',
+    period: '2023 – Present',
+    role: 'Senior Tax Accountant',
+    organization: 'Barry M. Strauss Associates, Ltd — New York City',
     description:
-      'Generated financial statements using QuickBooks, ensured GAAP compliance, and assisted external CPAs with tax return preparation. Responsible for revenue recognition, accrual accounting, and full-cycle bookkeeping.',
-  },
-  {
-    period: '2021 – 2022',
-    role: 'Staff Tax Accountant',
-    organization: 'AVASK Accounting & Business Consultants',
-    description:
-      'Prepared partnership, corporate, individual, and fiduciary tax returns, including federal and state income tax, sales tax, use tax, and payroll tax. Conducted tax research, assisted with IRS/state audits, and responded to client tax notices.',
+      'Leads preparation and review of complex U.S. federal returns across multiple entity types — Forms 1040/1040NR, 1120/1120S/1120F, 1065, 709, and 706 — for individuals, businesses, and high-net-worth clients.',
   },
   {
     period: '2022 – 2023',
@@ -24,11 +17,18 @@ const timeline = [
       'Prepared and reviewed multi-entity federal and state tax returns. Deepened expertise in complex individual and business filings, expanding knowledge of trust and estate taxation in a full-service CPA practice.',
   },
   {
-    period: '2023 – Present',
-    role: 'Senior Tax Accountant',
-    organization: 'Barry M. Strauss Associates, Ltd — New York City',
+    period: '2021 – 2022',
+    role: 'Staff Tax Accountant',
+    organization: 'AVASK Accounting & Business Consultants',
     description:
-      'Leads preparation and review of complex U.S. federal returns across multiple entity types — Forms 1040/1040NR, 1120/1120S/1120F, 1065, 709, and 706 — for individuals, businesses, and high-net-worth clients.',
+      'Prepared partnership, corporate, individual, and fiduciary tax returns, including federal and state income tax, sales tax, use tax, and payroll tax. Conducted tax research, assisted with IRS/state audits, and responded to client tax notices.',
+  },
+  {
+    period: '2017 – 2021',
+    role: 'Accountant',
+    organization: 'JBAOXIN Health & Co Inc — Greater New York City Area',
+    description:
+      'Generated financial statements using QuickBooks, ensured GAAP compliance, and assisted external CPAs with tax return preparation. Responsible for revenue recognition, accrual accounting, and full-cycle bookkeeping.',
   },
 ]
 
