@@ -3,32 +3,32 @@ import GoldDivider from '@/components/ui/GoldDivider'
 
 const timeline = [
   {
-    period: '2010 – 2013',
-    role: 'Staff Accountant',
-    organization: 'Deloitte LLP',
-    description:
-      'Provided audit and tax compliance services to Fortune 500 corporations and high-net-worth individuals. Developed foundational expertise in corporate tax strategy and complex multi-state filings.',
-  },
-  {
-    period: '2013 – 2017',
-    role: 'Senior Tax Advisor',
-    organization: 'Regional Wealth Management Firm',
-    description:
-      'Led a team of four advisors delivering integrated tax and wealth planning for a portfolio of 150+ clients. Specialized in estate planning, trust structures, and tax-efficient investment strategies.',
-  },
-  {
     period: '2017 – 2021',
-    role: 'Director of Financial Planning',
-    organization: 'Apex Financial Group',
+    role: 'Accountant',
+    organization: 'JBAOXIN Health & Co Inc — Greater New York City Area',
     description:
-      'Oversaw financial planning operations for a $200M book of business. Introduced holistic planning frameworks that reduced average client tax burden by 18% while improving retirement readiness scores.',
+      'Generated financial statements using QuickBooks, ensured GAAP compliance, and assisted external CPAs with tax return preparation. Responsible for revenue recognition, accrual accounting, and full-cycle bookkeeping.',
   },
   {
-    period: '2021 – Present',
-    role: 'Founder & Principal Advisor',
-    organization: 'LGP Tax & Wealth Management',
+    period: '2021 – 2022',
+    role: 'Staff Tax Accountant',
+    organization: 'AVASK Accounting & Business Consultants',
     description:
-      'Founded LGP to deliver personalized, fiduciary-grade financial guidance to individuals, families, and small businesses. Combining deep technical expertise with genuine care for each client\'s unique goals.',
+      'Prepared partnership, corporate, individual, and fiduciary tax returns, including federal and state income tax, sales tax, use tax, and payroll tax. Conducted tax research, assisted with IRS/state audits, and responded to client tax notices.',
+  },
+  {
+    period: '2022 – 2023',
+    role: 'Tax Accountant',
+    organization: 'Freedman & Co., CPA, PC — New York City',
+    description:
+      'Prepared and reviewed multi-entity federal and state tax returns. Deepened expertise in complex individual and business filings, expanding knowledge of trust and estate taxation in a full-service CPA practice.',
+  },
+  {
+    period: '2023 – Present',
+    role: 'Senior Tax Accountant',
+    organization: 'Barry M. Strauss Associates, Ltd — New York City',
+    description:
+      'Leads preparation and review of complex U.S. federal returns across multiple entity types — Forms 1040/1040NR, 1120/1120S/1120F, 1065, 709, and 706 — for individuals, businesses, and high-net-worth clients.',
   },
 ]
 

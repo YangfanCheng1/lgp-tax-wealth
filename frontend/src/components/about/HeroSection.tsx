@@ -71,9 +71,9 @@ export default function HeroSection() {
           style={{ animationDelay: '0.4s' }}
         >
           {[
-            { value: '15+', label: 'Years of Experience' },
-            { value: '500+', label: 'Clients Served' },
-            { value: '3', label: 'States Licensed' },
+            { value: '8+', label: 'Years of Experience' },
+            { value: '4', label: 'Certifications Held' },
+            { value: 'Bilingual', label: 'English & Mandarin' },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
               <p className="font-display text-3xl font-bold text-gold">{value}</p>

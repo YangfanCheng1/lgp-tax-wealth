@@ -2,10 +2,10 @@ import SectionWrapper from '@/components/ui/SectionWrapper'
 import GoldDivider from '@/components/ui/GoldDivider'
 
 const stats = [
-  { value: '15+', label: 'Years in Practice' },
-  { value: '500+', label: 'Clients Served' },
-  { value: '3', label: 'States Licensed' },
-  { value: '$50M+', label: 'Assets Under Guidance' },
+  { value: '8+', label: 'Years in Tax & Accounting' },
+  { value: '4', label: 'Professional Certifications' },
+  { value: '2', label: 'Languages Served' },
+  { value: 'NYC', label: 'Metropolitan Area' },
 ]
 
 export default function WhoWeAreSection() {
@@ -22,18 +22,21 @@ export default function WhoWeAreSection() {
 
           <div className="space-y-4 text-gray-600 font-body leading-relaxed">
             <p>
-              LGP Tax &amp; Wealth Management was founded on the belief that every individual and
-              business deserves access to the same sophisticated financial strategies that were once
-              reserved for the ultra-wealthy.
+              LGP Tax &amp; Wealth Management is led by Louisa G. Peng, CFP®, CMA, EA — an
+              accomplished Senior Tax Accountant with cross-border experience spanning New York and
+              Shanghai. Louisa specializes in complex tax compliance and advisory for individuals,
+              businesses, and high-net-worth clients.
             </p>
             <p>
-              With deep expertise in tax law, investment strategy, and comprehensive financial
-              planning, we partner with our clients to create tailored roadmaps that protect
-              wealth, minimize tax liability, and build lasting financial security.
+              Her expertise spans the full spectrum of U.S. federal tax returns — including Forms
+              1040/1040NR, 1120/1120S, 1065, and advanced gift and estate tax filings (Forms 709
+              and 706) — paired with a strong background in corporate accounting and payroll
+              operations.
             </p>
             <p>
-              We are more than advisors — we are trusted partners committed to your financial
-              wellbeing through every life stage and business milestone.
+              Bilingual in English and Mandarin Chinese, Louisa brings a unique perspective to
+              serving a diverse clientele. She is also an active CPA candidate, committed to the
+              highest standards of professional excellence.
             </p>
           </div>
 
