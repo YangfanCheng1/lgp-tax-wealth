@@ -18,6 +18,7 @@
 set -euo pipefail
 
 PROJECT_ID="${GCLOUD_PROJECT_ID:?Error: set GCLOUD_PROJECT_ID}"
+MAIL_PASSWORD="${MAIL_PASSWORD:?Error: set MAIL_PASSWORD to your Gmail App Password}"
 REGION="${REGION:-us-central1}"
 REPO="$REGION-docker.pkg.dev/$PROJECT_ID/lgp-images"
 IMAGE="$REPO/lgp-backend"
@@ -48,7 +49,7 @@ gcloud run deploy lgp-backend \
   --cpu 0.5 \
   --min-instances 0 \
   --max-instances 5 \
-  --set-env-vars "CORS_ALLOWED_ORIGINS=${FRONTEND_URL:-https://lgp-frontend-placeholder.a.run.app}" \
+  --set-env-vars "CORS_ALLOWED_ORIGINS=${FRONTEND_URL:-https://lgp-frontend-placeholder.a.run.app},MAIL_PASSWORD=${MAIL_PASSWORD}" \
   --quiet
 
 echo ""
