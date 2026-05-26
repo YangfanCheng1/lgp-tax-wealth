@@ -80,8 +80,8 @@ export default function Footer() {
             </ul>
             <div className="space-y-1.5 text-sm text-gray-400">
               <p className="font-semibold text-gray-300">Contact Us</p>
-              <p>contact@lgptaxwealth.com</p>
-              <p>(555) 000-0000</p>
+              <p>pengli0216@gmail.com</p>
+              <p>(347) 610-5286</p>
               <p>123 Financial Plaza, Suite 100</p>
             </div>
           </div>
